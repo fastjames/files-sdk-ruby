@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     files.com (1.0.0)
-      faraday
+      faraday (>= 0.12.0)
 
 GEM
   remote: https://rubygems.org/
@@ -20,7 +20,7 @@ GEM
     pry-byebug (3.7.0)
       byebug (~> 11.0)
       pry (~> 0.10)
-    rake (12.0.0)
+    rake (13.0.1)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -42,7 +42,7 @@ DEPENDENCIES
   files.com!
   pry
   pry-byebug
-  rake (~> 12.0.0)
+  rake (~> 13.0.1)
   rspec
 
 BUNDLED WITH
